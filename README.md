@@ -6,6 +6,8 @@
 
 Fill in a form, get a clean PDF. No account, no subscription, and nothing uploaded — your clients, your rates and your income stay in your browser.
 
+**[Use it →](https://bleakmidwinter90.github.io/receipt/)**
+
 [![CI](https://github.com/BleakMidwinter90/receipt/actions/workflows/ci.yml/badge.svg)](https://github.com/BleakMidwinter90/receipt/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-informational.svg)](LICENSE)
 
@@ -42,6 +44,10 @@ The preview pane is not a styled HTML approximation of the output. It is the act
 An HTML mock-up is the obvious way to build this and it is a trap: the two drift apart, and the first anyone finds out is when a client receives something that does not match what was on screen. Rendering the real thing means the preview cannot be wrong about the document.
 
 ## Try it
+
+It is live at **[bleakmidwinter90.github.io/receipt](https://bleakmidwinter90.github.io/receipt/)** — a static page, so opening it involves no account and sends nothing anywhere.
+
+To run it yourself:
 
 ```sh
 git clone https://github.com/BleakMidwinter90/receipt.git
